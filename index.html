@@ -11,57 +11,149 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <img src="img/foto-perfil.jpeg" alt="foto Perfil" style="width: 100px; border-radius: 100%; border: 3px solid rgba(100, 153, 141);">
-            <p>Sobre mi</p>
-            <p>blabladblablasasaddas</p>
+            <!--  Profile picture -->
+            <div>
+                <img src="img/foto-perfil.jpeg" alt="foto Perfil"
+                    style="display: flex; justify-self: center; width: 100px; border-radius: 100%; border: 3px solid rgba(100, 153, 141);">
+            </div>
+
+            
+            <!--  jumb link-->
+            <a href="#about_me" class="jumb_link">
+                <img src="img/iconos/user-solid.png" alt="icono_user">
+                <p>Sobre mi </p>
+            </a>
+            <a href="#experience" class="jumb_link">
+                <img src="img/iconos/arrow-trend-up-solid.png" alt="arrow-trend">
+                <p>Experiencia</p>
+            </a>
+            <a href="#skills" class="jumb_link">
+                <img src="img/iconos/chart-column-solid.png" alt="chart-column">
+                <p>Habilidades</p>
+            </a>
+            <a href="#education" class="jumb_link">
+                <img src="img/iconos/graduation-cap-solid.png" alt="graduation-cap">
+                <p>Educación</p>
+            </a>
+            <a href="#contact_us" class="jumb_link">
+                <img src="img/iconos/envelope-solid.png" alt="envelope-solid">
+                <p>Contactame</p>
+            </a>
+
+            <a href="#my_resume" class="jumb_link">
+                <img src="img/iconos/folder-solid.png" alt="folder-solid">
+                <p>Curriculum</p>
+            </a>
 
         </div>
 
         <div class="main">
-            <div class="head"> 
+            <div class="head">
                 <p style="color: white; font-size: 4rem;"> Hola Me llamo Roman Murillo </p>
                 <p style="color: white; font-size: 2rem;"> Ingeniero Civil Industrial - Full Stack Python</p>
-                
+
                 <div style="display: flex; gap: 10px;">
-                    <button style="border-radius: 10%; padding: 8%; color: green ; border: 2px solid rgba(100, 153, 141);"> <p style="white-space: nowrap;"> Leer mas  </p> </button> 
-                    <button style="border-radius: 10%; padding: 8%; color: white ; border: 2px solid white; background-color: rgba(100, 153, 141) ;" > Contactame</button> 
+                    <button
+                        style="border-radius: 10%; padding: 8%; color: green ; border: 2px solid rgba(100, 153, 141);">
+                        <p style="white-space: nowrap;"> Leer mas </p>
+                    </button>
+                    <button
+                        style="border-radius: 10%; padding: 8%; color: white ; border: 2px solid white; background-color: rgba(100, 153, 141) ;">
+                        Contactame</button>
                 </div>
             </div>
 
             <div class="session_tittle">
-            
-                <h1>Sobre mi</h1>
+
+                <h1 id="about_me">Sobre mi</h1>
 
             </div>
             <div class="session_content" style="font-size: 1.5rem;">
-                <p >
-                    Graduado de <span style="font-weight: bold;">Ingeniería Civil Industrial </span> en la Universidad Católica del Norte. Experiencia en planificación, gestión de información, proyectos, análisis estadístico, generación de reportes y alertas. Entusiasta de la ciencias exactas, curioso, proactivo, trabajo en equipo, colaborador. Habilidades de programación, aplicación de estadistica, pensamiento critico. Orientado a alcanzar metas, mejora de procesos, optimización de procesos y toma de desiciones. 
+                <p>
+                    Graduado de <span style="font-weight: bold;">Ingeniería Civil Industrial </span> en la Universidad
+                    Católica del Norte. Experiencia en planificación, gestión de información, proyectos, análisis
+                    estadístico, generación de reportes y alertas. Entusiasta de la ciencias exactas, curioso,
+                    proactivo, trabajo en equipo, colaborador. Habilidades de programación, aplicación de estadistica,
+                    pensamiento critico. Orientado a alcanzar metas, mejora de procesos, optimización de procesos y toma
+                    de desiciones.
                 </p>
                 <br>
                 <p>
-                    Graduado en <span > Full Stack Python </span> de skillnest con el apoyo de Minera Escondida. Conocimientos de front-end, back-end para la generación de paginas webs, lenguaje de almacenamientos de datos SQl. Aplicaciones en Proyectos. 
+                    Graduado en <span> Full Stack Python </span> de skillnest con el apoyo de Minera Escondida.
+                    Conocimientos de front-end, back-end para la generación de paginas webs, lenguaje de almacenamientos
+                    de datos SQl. Aplicaciones en Proyectos.
                 </p><br>
-                
-                <p> 
-                    <span style="font-weight: bold;"> Programas:  </span> Autocad, Simio, Arena, VScode y SAP
+
+                <p>
+                    <span style="font-weight: bold;"> Programas: </span> Autocad, Simio, Arena, VScode y SAP
                 </p>
-                <p> 
-                    <span style="font-weight: bold;"> Base de datos:  </span> SQL, MySQL Workbench, Power Query, Power BI, Excel y Minitab
+                <p>
+                    <span style="font-weight: bold;"> Base de datos: </span> SQL, MySQL Workbench, Power Query, Power
+                    BI, Excel y Minitab
                 </p>
-                <p> 
-                    <span style="font-weight: bold;"> Lenguajes:  </span> Python, Java Script, HTML/CSS y Git bash 
-            
+                <p>
+                    <span style="font-weight: bold;"> Lenguajes: </span> Python, Java Script, HTML/CSS y Git bash
+
                 </p>
-                <p> 
-                    <span style="font-weight: bold;"> Librerias:  </span> Panda, Numpy, Skelearn, Matplotlib, Seaborn
+                <p>
+                    <span style="font-weight: bold;"> Librerias: </span> Panda, Numpy, Skelearn, Matplotlib, Seaborn
                 </p>
-                <p> 
-                    <span style="font-weight: bold;"> Framework:  </span> 
-                Django, Flask, Ninja2               </p>
+                <p>
+                    <span style="font-weight: bold;"> Framework: </span>
+                    Django, Flask, Ninja2
+                </p>
             </div>
 
-        </div>
+            <div class="session_tittle">
+                <h1 id="experience">Experiencia</h1>
+            </div>
+            <div>
+                <br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br>
+            </div>
 
+            <div class="session_tittle" >
+                <h1 id="skills">Habilidades</h1>
+            </div>
+            <div>
+                <br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br>
+            </div>
+
+            <div class="session_tittle" >
+                <h1 id="education">Educación</h1>
+            </div>
+            <div>
+                <br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br>
+            </div>
+            <div class="session_tittle" >
+                <h1 id="contact_us">Contactame</h1>
+            </div>
+            <div>
+                <br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br>
+            </div>
+
+            <div class="session_tittle" >
+                <h1 id="my_resume">Curriculum</h1>
+            </div>
+            <div>
+                <br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br>
+            </div>
+
+
+
+
+
+
+        </div>
 
     </div>
 

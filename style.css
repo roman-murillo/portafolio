@@ -15,8 +15,6 @@ position: fixed;
 width: 150px;
 display: flex;
 flex-direction: column;
-align-items: center;
-
 }
 
 .main{
@@ -50,3 +48,27 @@ padding-left: 5%;
     padding: 5%;
 
 }
+
+.jumb_link{
+display: flex; 
+align-items: center;
+justify-content: flex-start;
+gap: 5%;
+margin-left: 3%;
+}
+
+.jumb_link img{
+width: 30px;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+a:hover {
+    background: none;
+    text-decoration: none;
+    background-color: darkgrey
+}
+
