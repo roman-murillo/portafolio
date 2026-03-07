@@ -85,3 +85,7 @@ a:hover {
 ul {
     list-style-position: inside;
 }
+
+li {
+    margin: 0.7%;
+}
