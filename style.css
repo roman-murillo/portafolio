@@ -77,5 +77,10 @@ a:hover {
 .experience_sesion{
     background-color: white;
     box-shadow: -5px 5px 5px gray;
+    margin: 5%;
 }
 
+/* Para que la lista quede entro de un paddin   */ 
+ul {
+    list-style-position: inside;
+}
