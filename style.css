@@ -94,10 +94,19 @@ a:hover {
 }
 
 .box_skill img{
-    height: auto;
-    max-width: 30%;
+    height: auto ;
+    max-width: 40% ;
 }
 
+
+.box_skill_grid{
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10%;
+    font-size: 1.35rem;
+}
 
 
 
