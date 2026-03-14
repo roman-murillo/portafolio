@@ -110,6 +110,20 @@ a:hover {
 
 
 
+.box_education{
+    background-color: white;
+    box-shadow: -5px 5px 5px gray;
+    padding: 3%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.box_education img{
+    height: auto ;
+
+}
 
 /* Para que la lista quede entro de un paddin   */ 
 ul {
