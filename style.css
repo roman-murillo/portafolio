@@ -136,8 +136,8 @@ li {
 }
 .grid_contact{
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    justify-self: center;
+    grid-template-columns: 1fr 12fr;
+    justify-self: flex-start;
     gap: 5%;
 }
 
@@ -147,6 +147,7 @@ li {
 }
 
 .grid_contact img{
-    max-width: 25%;
-    height: auto;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
 }
